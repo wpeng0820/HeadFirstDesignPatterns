@@ -18,6 +18,7 @@
 		35ADA01A285F54F400043D70 /* FlyNoWay.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35ADA019285F54F400043D70 /* FlyNoWay.swift */; };
 		35ADA01C285F557200043D70 /* Quack.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35ADA01B285F557200043D70 /* Quack.swift */; };
 		35ADA01E285F55BC00043D70 /* Squeak.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35ADA01D285F55BC00043D70 /* Squeak.swift */; };
+		35ADA020285F566400043D70 /* MuteQuack.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35ADA01F285F566400043D70 /* MuteQuack.swift */; };
 		35E20F252855C16400AA86BC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35E20F242855C16400AA86BC /* AppDelegate.swift */; };
 		35E20F272855C16400AA86BC /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35E20F262855C16400AA86BC /* SceneDelegate.swift */; };
 		35E20F292855C16400AA86BC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35E20F282855C16400AA86BC /* ViewController.swift */; };
@@ -58,6 +59,7 @@
 		35ADA019285F54F400043D70 /* FlyNoWay.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlyNoWay.swift; sourceTree = "<group>"; };
 		35ADA01B285F557200043D70 /* Quack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Quack.swift; sourceTree = "<group>"; };
 		35ADA01D285F55BC00043D70 /* Squeak.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Squeak.swift; sourceTree = "<group>"; };
+		35ADA01F285F566400043D70 /* MuteQuack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MuteQuack.swift; sourceTree = "<group>"; };
 		35E20F212855C16400AA86BC /* HeadFirstDesignPatterns.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HeadFirstDesignPatterns.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		35E20F242855C16400AA86BC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		35E20F262855C16400AA86BC /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -128,6 +130,7 @@
 				357AE756285F19F7006BD79A /* QuackBehavior.swift */,
 				35ADA01B285F557200043D70 /* Quack.swift */,
 				35ADA01D285F55BC00043D70 /* Squeak.swift */,
+				35ADA01F285F566400043D70 /* MuteQuack.swift */,
 			);
 			path = QuackBehavior;
 			sourceTree = "<group>";
@@ -328,6 +331,7 @@
 				35326285285F16FA00A33300 /* RubberDuck.swift in Sources */,
 				35ADA01E285F55BC00043D70 /* Squeak.swift in Sources */,
 				357AE755285F19D1006BD79A /* FlyBehavior.swift in Sources */,
+				35ADA020285F566400043D70 /* MuteQuack.swift in Sources */,
 				35E20F272855C16400AA86BC /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
