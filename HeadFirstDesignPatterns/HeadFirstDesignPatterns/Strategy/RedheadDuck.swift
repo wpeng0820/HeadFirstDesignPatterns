@@ -8,19 +8,4 @@
 import Foundation
 
 class RedheadDuck: Duck {
-    override func display() {
-        print("It looks redhead")
-    }
-}
-
-// MARK: - FlyBehavior
-
-extension RedheadDuck: FlyBehavior {
-    func fly() { }
-}
-
-// MARK: - QuackBehavior
-
-extension RedheadDuck: QuackBehavior {
-    func quack() { }
 }

@@ -7,16 +7,4 @@
 
 import Foundation
 
-class RubberDuck: Duck {
-    override func display() {
-        print("It looks Rubber")
-    }
-}
-
-// MARK: - QuackBehavior
-
-extension RubberDuck: QuackBehavior {
-    func quack() {
-        print("Its voice sounds squeak")
-    }
-}
+class RubberDuck: Duck { }

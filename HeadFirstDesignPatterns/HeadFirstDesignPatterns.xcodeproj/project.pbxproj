@@ -20,6 +20,10 @@
 		35ADA01E285F55BC00043D70 /* Squeak.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35ADA01D285F55BC00043D70 /* Squeak.swift */; };
 		35ADA020285F566400043D70 /* MuteQuack.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35ADA01F285F566400043D70 /* MuteQuack.swift */; };
 		35ADA022285F598C00043D70 /* DisplayBehavior.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35ADA021285F598C00043D70 /* DisplayBehavior.swift */; };
+		35ADA025285F652A00043D70 /* Mallar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35ADA024285F652A00043D70 /* Mallar.swift */; };
+		35ADA027285F656C00043D70 /* Redhead.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35ADA026285F656C00043D70 /* Redhead.swift */; };
+		35ADA029285F659400043D70 /* Rubber.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35ADA028285F659400043D70 /* Rubber.swift */; };
+		35ADA02B285F65B000043D70 /* Decoy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35ADA02A285F65B000043D70 /* Decoy.swift */; };
 		35E20F252855C16400AA86BC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35E20F242855C16400AA86BC /* AppDelegate.swift */; };
 		35E20F272855C16400AA86BC /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35E20F262855C16400AA86BC /* SceneDelegate.swift */; };
 		35E20F292855C16400AA86BC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35E20F282855C16400AA86BC /* ViewController.swift */; };
@@ -62,6 +66,10 @@
 		35ADA01D285F55BC00043D70 /* Squeak.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Squeak.swift; sourceTree = "<group>"; };
 		35ADA01F285F566400043D70 /* MuteQuack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MuteQuack.swift; sourceTree = "<group>"; };
 		35ADA021285F598C00043D70 /* DisplayBehavior.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DisplayBehavior.swift; sourceTree = "<group>"; };
+		35ADA024285F652A00043D70 /* Mallar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Mallar.swift; sourceTree = "<group>"; };
+		35ADA026285F656C00043D70 /* Redhead.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Redhead.swift; sourceTree = "<group>"; };
+		35ADA028285F659400043D70 /* Rubber.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Rubber.swift; sourceTree = "<group>"; };
+		35ADA02A285F65B000043D70 /* Decoy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Decoy.swift; sourceTree = "<group>"; };
 		35E20F212855C16400AA86BC /* HeadFirstDesignPatterns.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HeadFirstDesignPatterns.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		35E20F242855C16400AA86BC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		35E20F262855C16400AA86BC /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -142,6 +150,10 @@
 			isa = PBXGroup;
 			children = (
 				35ADA021285F598C00043D70 /* DisplayBehavior.swift */,
+				35ADA024285F652A00043D70 /* Mallar.swift */,
+				35ADA026285F656C00043D70 /* Redhead.swift */,
+				35ADA028285F659400043D70 /* Rubber.swift */,
+				35ADA02A285F65B000043D70 /* Decoy.swift */,
 			);
 			path = DisplayBehavior;
 			sourceTree = "<group>";
@@ -331,8 +343,11 @@
 			files = (
 				3532627F285F13FA00A33300 /* Duck.swift in Sources */,
 				35ADA018285F546200043D70 /* FlyWithWings.swift in Sources */,
+				35ADA025285F652A00043D70 /* Mallar.swift in Sources */,
+				35ADA029285F659400043D70 /* Rubber.swift in Sources */,
 				357AE757285F19F7006BD79A /* QuackBehavior.swift in Sources */,
 				35E20F292855C16400AA86BC /* ViewController.swift in Sources */,
+				35ADA02B285F65B000043D70 /* Decoy.swift in Sources */,
 				35326281285F14DD00A33300 /* MallarDuck.swift in Sources */,
 				35E20F252855C16400AA86BC /* AppDelegate.swift in Sources */,
 				35ADA022285F598C00043D70 /* DisplayBehavior.swift in Sources */,
@@ -343,6 +358,7 @@
 				35326285285F16FA00A33300 /* RubberDuck.swift in Sources */,
 				35ADA01E285F55BC00043D70 /* Squeak.swift in Sources */,
 				357AE755285F19D1006BD79A /* FlyBehavior.swift in Sources */,
+				35ADA027285F656C00043D70 /* Redhead.swift in Sources */,
 				35ADA020285F566400043D70 /* MuteQuack.swift in Sources */,
 				35E20F272855C16400AA86BC /* SceneDelegate.swift in Sources */,
 			);

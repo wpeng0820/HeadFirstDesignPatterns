@@ -8,7 +8,4 @@
 import Foundation
 
 class DecoyDuck: Duck {
-    override func display() {
-        print("It looks Decoy")
-    }
 }

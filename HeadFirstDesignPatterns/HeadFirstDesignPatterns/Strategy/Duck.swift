@@ -8,7 +8,29 @@
 import Foundation
 
 class Duck {
-    func swim() { }
+    let quackBehavior: QuackBehavior
+    let flyBehavior: FlyBehavior
+    let displayBehavior: DisplayBehavior
     
-    func display() { }
+    init(quackBehavior: QuackBehavior,
+         flyBehavior: FlyBehavior,
+         displayBehavior: DisplayBehavior) {
+        self.quackBehavior = quackBehavior
+        self.flyBehavior = flyBehavior
+        self.displayBehavior = displayBehavior
+    }
+    
+    func performQuack() {
+        quackBehavior.quack()
+    }
+    
+    func performFly() {
+        flyBehavior.fly()
+    }
+    
+    func performDisplay() {
+        displayBehavior.display()
+    }
+    
+    func swim() { }
 }

@@ -7,20 +7,4 @@
 
 import Foundation
 
-class MallarDuck: Duck {
-    override func display() {
-        print("It looks mallar")
-    }
-}
-
-// MARK: - FlyBehavior
-
-extension MallarDuck: FlyBehavior {
-    func fly() { }
-}
-
-// MARK: - QuackBehavior
-
-extension MallarDuck: QuackBehavior {
-    func quack() { }
-}
+class MallarDuck: Duck { }
