@@ -20,6 +20,7 @@
 		35ADA027285F656C00043D70 /* Redhead.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35ADA026285F656C00043D70 /* Redhead.swift */; };
 		35ADA029285F659400043D70 /* Rubber.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35ADA028285F659400043D70 /* Rubber.swift */; };
 		35ADA02B285F65B000043D70 /* Decoy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35ADA02A285F65B000043D70 /* Decoy.swift */; };
+		35ADA02D285F672900043D70 /* DuckTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35ADA02C285F672900043D70 /* DuckTests.swift */; };
 		35E20F252855C16400AA86BC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35E20F242855C16400AA86BC /* AppDelegate.swift */; };
 		35E20F272855C16400AA86BC /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35E20F262855C16400AA86BC /* SceneDelegate.swift */; };
 		35E20F292855C16400AA86BC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35E20F282855C16400AA86BC /* ViewController.swift */; };
@@ -62,6 +63,7 @@
 		35ADA026285F656C00043D70 /* Redhead.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Redhead.swift; sourceTree = "<group>"; };
 		35ADA028285F659400043D70 /* Rubber.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Rubber.swift; sourceTree = "<group>"; };
 		35ADA02A285F65B000043D70 /* Decoy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Decoy.swift; sourceTree = "<group>"; };
+		35ADA02C285F672900043D70 /* DuckTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DuckTests.swift; sourceTree = "<group>"; };
 		35E20F212855C16400AA86BC /* HeadFirstDesignPatterns.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HeadFirstDesignPatterns.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		35E20F242855C16400AA86BC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		35E20F262855C16400AA86BC /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -185,6 +187,7 @@
 			isa = PBXGroup;
 			children = (
 				35E20F3B2855C16800AA86BC /* HeadFirstDesignPatternsTests.swift */,
+				35ADA02C285F672900043D70 /* DuckTests.swift */,
 			);
 			path = HeadFirstDesignPatternsTests;
 			sourceTree = "<group>";
@@ -352,6 +355,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				35ADA02D285F672900043D70 /* DuckTests.swift in Sources */,
 				35E20F3C2855C16800AA86BC /* HeadFirstDesignPatternsTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
