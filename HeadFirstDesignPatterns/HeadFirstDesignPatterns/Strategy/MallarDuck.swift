@@ -13,14 +13,14 @@ class MallarDuck: Duck {
     }
 }
 
-// MARK: - Flyable
+// MARK: - FlyBehavior
 
-extension MallarDuck: Flyable {
+extension MallarDuck: FlyBehavior {
     func fly() { }
 }
 
-// MARK: - Quackable
+// MARK: - QuackBehavior
 
-extension MallarDuck: Quackable {
+extension MallarDuck: QuackBehavior {
     func quack() { }
 }

@@ -13,9 +13,9 @@ class RubberDuck: Duck {
     }
 }
 
-// MARK: - Quackable
+// MARK: - QuackBehavior
 
-extension RubberDuck: Quackable {
+extension RubberDuck: QuackBehavior {
     func quack() {
         print("Its voice sounds squeak")
     }

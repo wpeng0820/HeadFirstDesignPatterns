@@ -13,14 +13,14 @@ class RedheadDuck: Duck {
     }
 }
 
-// MARK: - Flyable
+// MARK: - FlyBehavior
 
-extension RedheadDuck: Flyable {
+extension RedheadDuck: FlyBehavior {
     func fly() { }
 }
 
-// MARK: - Quackable
+// MARK: - QuackBehavior
 
-extension RedheadDuck: Quackable {
+extension RedheadDuck: QuackBehavior {
     func quack() { }
 }
