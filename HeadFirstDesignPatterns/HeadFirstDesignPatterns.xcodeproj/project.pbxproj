@@ -11,6 +11,7 @@
 		35326281285F14DD00A33300 /* MallarDuck.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35326280285F14DD00A33300 /* MallarDuck.swift */; };
 		35326283285F14F000A33300 /* RedheadDuck.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35326282285F14F000A33300 /* RedheadDuck.swift */; };
 		35326285285F16FA00A33300 /* RubberDuck.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35326284285F16FA00A33300 /* RubberDuck.swift */; };
+		357AE753285F18C6006BD79A /* DecoyDuck.swift in Sources */ = {isa = PBXBuildFile; fileRef = 357AE752285F18C6006BD79A /* DecoyDuck.swift */; };
 		35E20F252855C16400AA86BC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35E20F242855C16400AA86BC /* AppDelegate.swift */; };
 		35E20F272855C16400AA86BC /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35E20F262855C16400AA86BC /* SceneDelegate.swift */; };
 		35E20F292855C16400AA86BC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35E20F282855C16400AA86BC /* ViewController.swift */; };
@@ -44,6 +45,7 @@
 		35326280285F14DD00A33300 /* MallarDuck.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MallarDuck.swift; sourceTree = "<group>"; };
 		35326282285F14F000A33300 /* RedheadDuck.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RedheadDuck.swift; sourceTree = "<group>"; };
 		35326284285F16FA00A33300 /* RubberDuck.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RubberDuck.swift; sourceTree = "<group>"; };
+		357AE752285F18C6006BD79A /* DecoyDuck.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DecoyDuck.swift; sourceTree = "<group>"; };
 		35E20F212855C16400AA86BC /* HeadFirstDesignPatterns.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HeadFirstDesignPatterns.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		35E20F242855C16400AA86BC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		35E20F262855C16400AA86BC /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -91,6 +93,7 @@
 				35326280285F14DD00A33300 /* MallarDuck.swift */,
 				35326282285F14F000A33300 /* RedheadDuck.swift */,
 				35326284285F16FA00A33300 /* RubberDuck.swift */,
+				357AE752285F18C6006BD79A /* DecoyDuck.swift */,
 			);
 			path = Strategy;
 			sourceTree = "<group>";
@@ -283,6 +286,7 @@
 				35326281285F14DD00A33300 /* MallarDuck.swift in Sources */,
 				35E20F252855C16400AA86BC /* AppDelegate.swift in Sources */,
 				35326283285F14F000A33300 /* RedheadDuck.swift in Sources */,
+				357AE753285F18C6006BD79A /* DecoyDuck.swift in Sources */,
 				35326285285F16FA00A33300 /* RubberDuck.swift in Sources */,
 				35E20F272855C16400AA86BC /* SceneDelegate.swift in Sources */,
 			);
