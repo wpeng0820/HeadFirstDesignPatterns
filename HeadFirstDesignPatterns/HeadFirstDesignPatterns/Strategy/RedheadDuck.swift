@@ -12,3 +12,15 @@ class RedheadDuck: Duck {
         print("It looks redhead")
     }
 }
+
+// MARK: - Flyable
+
+extension RedheadDuck: Flyable {
+    func fly() { }
+}
+
+// MARK: - Quackable
+
+extension RedheadDuck: Quackable {
+    func quack() { }
+}

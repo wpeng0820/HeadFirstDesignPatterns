@@ -12,3 +12,15 @@ class MallarDuck: Duck {
         print("It looks mallar")
     }
 }
+
+// MARK: - Flyable
+
+extension MallarDuck: Flyable {
+    func fly() { }
+}
+
+// MARK: - Quackable
+
+extension MallarDuck: Quackable {
+    func quack() { }
+}
