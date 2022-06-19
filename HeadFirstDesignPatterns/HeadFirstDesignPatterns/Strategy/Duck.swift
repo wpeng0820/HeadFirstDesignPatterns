@@ -13,4 +13,6 @@ class Duck {
     func swim() { }
     
     func display() { }
+    
+    func fly() { }
 }
