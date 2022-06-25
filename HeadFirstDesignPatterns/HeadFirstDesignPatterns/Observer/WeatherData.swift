@@ -8,10 +8,10 @@
 import Foundation
 
 class WeatherData {
-    private let currentConditionsDisplay = CurrentConditionsDisplay()
-    private let statisticsDisplay = StatisticsDisplay()
-    private let forecasDisplay = ForecasDisplay()
-    
+    private var observers: [Observer] = []
+    private var temperature: String = ""
+    private var humidity: String = ""
+    private var pressure: String = ""
     
     func getTemperature() -> String { "Temperature" }
     
@@ -21,12 +21,34 @@ class WeatherData {
     
     // This method will invoked after the object get new data
     func measurementsChanged() {
-        let temp = getTemperature()
-        let humidiry = getHumidiry()
-        let pressure = getPressure()
-        
-        currentConditionsDisplay.update(temp: temp, humidity: humidiry, pressure: pressure)
-        statisticsDisplay.update(temp: temp, humidity: humidiry, pressure: pressure)
-        forecasDisplay.update(temp: temp, humidity: humidiry, pressure: pressure)
+        notifyObservers()
+    }
+    
+    // This method was created for testing
+    func setMeasurements(temperature: String, humidity: String, pressure: String) {
+        self.temperature = temperature
+        self.humidity = humidity
+        self.pressure = pressure
+        measurementsChanged()
+    }
+}
+
+// MARK: - Implemented Subject
+
+extension WeatherData: Subject {
+    func registerObserver(_ observer: Observer) {
+        observers.append(observer)
+    }
+    
+    func removeObserver(_ observer: Observer) {
+        guard let index = (observers.firstIndex(where: { $0.id == observer.id })) else { return }
+        observers.remove(at: index)
+    }
+    
+    func notifyObservers() {
+        observers.forEach { $0.update(temperature: temperature,
+                                      humidity: humidity,
+                                      pressure: pressure)
+        }
     }
 }

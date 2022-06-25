@@ -25,6 +25,9 @@
 		35ADAB552866D77A00DE3CA1 /* CurrentConditionsDisplay.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35ADAB542866D77A00DE3CA1 /* CurrentConditionsDisplay.swift */; };
 		35ADAB572866D7EA00DE3CA1 /* StatisticsDisplay.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35ADAB562866D7EA00DE3CA1 /* StatisticsDisplay.swift */; };
 		35ADAB592866D82B00DE3CA1 /* ForecasDisplay.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35ADAB582866D82B00DE3CA1 /* ForecasDisplay.swift */; };
+		35ADAB5B2866E95E00DE3CA1 /* Subject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35ADAB5A2866E95E00DE3CA1 /* Subject.swift */; };
+		35ADAB5D2866E9C600DE3CA1 /* Observer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35ADAB5C2866E9C600DE3CA1 /* Observer.swift */; };
+		35ADAB5F2866E9DE00DE3CA1 /* DisplayElement.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35ADAB5E2866E9DE00DE3CA1 /* DisplayElement.swift */; };
 		35E20F252855C16400AA86BC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35E20F242855C16400AA86BC /* AppDelegate.swift */; };
 		35E20F272855C16400AA86BC /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35E20F262855C16400AA86BC /* SceneDelegate.swift */; };
 		35E20F292855C16400AA86BC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35E20F282855C16400AA86BC /* ViewController.swift */; };
@@ -72,6 +75,9 @@
 		35ADAB542866D77A00DE3CA1 /* CurrentConditionsDisplay.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrentConditionsDisplay.swift; sourceTree = "<group>"; };
 		35ADAB562866D7EA00DE3CA1 /* StatisticsDisplay.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatisticsDisplay.swift; sourceTree = "<group>"; };
 		35ADAB582866D82B00DE3CA1 /* ForecasDisplay.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForecasDisplay.swift; sourceTree = "<group>"; };
+		35ADAB5A2866E95E00DE3CA1 /* Subject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Subject.swift; sourceTree = "<group>"; };
+		35ADAB5C2866E9C600DE3CA1 /* Observer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Observer.swift; sourceTree = "<group>"; };
+		35ADAB5E2866E9DE00DE3CA1 /* DisplayElement.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DisplayElement.swift; sourceTree = "<group>"; };
 		35E20F212855C16400AA86BC /* HeadFirstDesignPatterns.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HeadFirstDesignPatterns.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		35E20F242855C16400AA86BC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		35E20F262855C16400AA86BC /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -163,6 +169,9 @@
 				35ADAB542866D77A00DE3CA1 /* CurrentConditionsDisplay.swift */,
 				35ADAB562866D7EA00DE3CA1 /* StatisticsDisplay.swift */,
 				35ADAB582866D82B00DE3CA1 /* ForecasDisplay.swift */,
+				35ADAB5A2866E95E00DE3CA1 /* Subject.swift */,
+				35ADAB5E2866E9DE00DE3CA1 /* DisplayElement.swift */,
+				35ADAB5C2866E9C600DE3CA1 /* Observer.swift */,
 			);
 			path = Observer;
 			sourceTree = "<group>";
@@ -368,8 +377,11 @@
 				35ADA01C285F557200043D70 /* Quack.swift in Sources */,
 				35ADA01E285F55BC00043D70 /* Squeak.swift in Sources */,
 				357AE755285F19D1006BD79A /* FlyBehavior.swift in Sources */,
+				35ADAB5B2866E95E00DE3CA1 /* Subject.swift in Sources */,
+				35ADAB5F2866E9DE00DE3CA1 /* DisplayElement.swift in Sources */,
 				35ADAB532866D62D00DE3CA1 /* WeatherData.swift in Sources */,
 				35ADA027285F656C00043D70 /* Redhead.swift in Sources */,
+				35ADAB5D2866E9C600DE3CA1 /* Observer.swift in Sources */,
 				35ADA020285F566400043D70 /* MuteQuack.swift in Sources */,
 				35E20F272855C16400AA86BC /* SceneDelegate.swift in Sources */,
 			);

@@ -8,5 +8,30 @@
 import Foundation
 
 class CurrentConditionsDisplay {
-    func update(temp: String, humidity: String, pressure: String) { }
+    let id: UUID = UUID()
+    
+    private let weatherData: WeatherData
+    private var temperature: String = ""
+    private var humidity: String = ""
+    
+    init(weatherData: WeatherData) {
+        self.weatherData = weatherData
+        weatherData.registerObserver(self)
+    }
+}
+
+// MARK: - Implemented Observer
+
+extension CurrentConditionsDisplay: Observer {
+    func update(temperature: String, humidity: String, pressure: String) {
+        self.temperature = temperature
+        self.humidity = humidity
+        display()
+    }
+}
+
+extension CurrentConditionsDisplay: DisplayElement  {
+    func display() {
+        print("current conditions: \(temperature) + F degress and \(humidity) % \(humidity)")
+    }
 }
