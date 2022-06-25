@@ -22,6 +22,7 @@
 		35ADA02B285F65B000043D70 /* Decoy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35ADA02A285F65B000043D70 /* Decoy.swift */; };
 		35ADA02D285F672900043D70 /* DuckTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35ADA02C285F672900043D70 /* DuckTests.swift */; };
 		35ADAB532866D62D00DE3CA1 /* WeatherData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35ADAB522866D62D00DE3CA1 /* WeatherData.swift */; };
+		35ADAB552866D77A00DE3CA1 /* CurrentConditionsDisplay.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35ADAB542866D77A00DE3CA1 /* CurrentConditionsDisplay.swift */; };
 		35E20F252855C16400AA86BC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35E20F242855C16400AA86BC /* AppDelegate.swift */; };
 		35E20F272855C16400AA86BC /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35E20F262855C16400AA86BC /* SceneDelegate.swift */; };
 		35E20F292855C16400AA86BC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35E20F282855C16400AA86BC /* ViewController.swift */; };
@@ -66,6 +67,7 @@
 		35ADA02A285F65B000043D70 /* Decoy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Decoy.swift; sourceTree = "<group>"; };
 		35ADA02C285F672900043D70 /* DuckTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DuckTests.swift; sourceTree = "<group>"; };
 		35ADAB522866D62D00DE3CA1 /* WeatherData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherData.swift; sourceTree = "<group>"; };
+		35ADAB542866D77A00DE3CA1 /* CurrentConditionsDisplay.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrentConditionsDisplay.swift; sourceTree = "<group>"; };
 		35E20F212855C16400AA86BC /* HeadFirstDesignPatterns.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HeadFirstDesignPatterns.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		35E20F242855C16400AA86BC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		35E20F262855C16400AA86BC /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -154,6 +156,7 @@
 			isa = PBXGroup;
 			children = (
 				35ADAB522866D62D00DE3CA1 /* WeatherData.swift */,
+				35ADAB542866D77A00DE3CA1 /* CurrentConditionsDisplay.swift */,
 			);
 			path = Observer;
 			sourceTree = "<group>";
@@ -349,6 +352,7 @@
 				35ADA029285F659400043D70 /* Rubber.swift in Sources */,
 				357AE757285F19F7006BD79A /* QuackBehavior.swift in Sources */,
 				35E20F292855C16400AA86BC /* ViewController.swift in Sources */,
+				35ADAB552866D77A00DE3CA1 /* CurrentConditionsDisplay.swift in Sources */,
 				35ADA02B285F65B000043D70 /* Decoy.swift in Sources */,
 				35E20F252855C16400AA86BC /* AppDelegate.swift in Sources */,
 				35ADA022285F598C00043D70 /* DisplayBehavior.swift in Sources */,
