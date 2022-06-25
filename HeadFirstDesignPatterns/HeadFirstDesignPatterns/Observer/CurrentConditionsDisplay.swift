@@ -11,8 +11,8 @@ class CurrentConditionsDisplay {
     let id: UUID = UUID()
     
     private let weatherData: WeatherData
-    private var temperature: String = ""
-    private var humidity: String = ""
+    private(set) var temperature: String = ""
+    private(set) var humidity: String = ""
     
     init(weatherData: WeatherData) {
         self.weatherData = weatherData
