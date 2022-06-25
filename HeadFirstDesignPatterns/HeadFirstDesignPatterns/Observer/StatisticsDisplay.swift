@@ -8,5 +8,30 @@
 import Foundation
 
 class StatisticsDisplay {
-    func update(temp: String, humidity: String, pressure: String) { }
+    let id: UUID = UUID()
+    
+    private let weatherData: WeatherData
+    private(set) var temperature: String = ""
+    private(set) var humidity: String = ""
+    
+    init(weatherData: WeatherData) {
+        self.weatherData = weatherData
+        weatherData.registerObserver(self)
+    }
+}
+
+// MARK: - Implemented Observer
+
+extension StatisticsDisplay: Observer {
+    func update(temperature: String, humidity: String, pressure: String) {
+        self.temperature = temperature
+        self.humidity = humidity
+        display()
+    }
+}
+
+extension StatisticsDisplay: DisplayElement  {
+    func display() {
+        print("Statistics: \(temperature) + F degress and \(humidity) % humidity")
+    }
 }

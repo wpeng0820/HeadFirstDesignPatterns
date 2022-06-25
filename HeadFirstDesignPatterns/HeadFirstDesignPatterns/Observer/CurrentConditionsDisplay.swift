@@ -32,6 +32,6 @@ extension CurrentConditionsDisplay: Observer {
 
 extension CurrentConditionsDisplay: DisplayElement  {
     func display() {
-        print("current conditions: \(temperature) + F degress and \(humidity) % \(humidity)")
+        print("current conditions: \(temperature) + F degress and \(humidity) % humidity")
     }
 }
