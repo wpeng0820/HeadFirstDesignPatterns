@@ -9,9 +9,9 @@ import Foundation
 
 class WeatherData {
     private var observers: [Observer] = []
-    private var temperature: String = ""
-    private var humidity: String = ""
-    private var pressure: String = ""
+    private(set) var temperature: String = ""
+    private(set) var humidity: String = ""
+    private(set) var pressure: String = ""
     
     func getTemperature() -> String { "Temperature" }
     
@@ -46,9 +46,6 @@ extension WeatherData: Subject {
     }
     
     func notifyObservers() {
-        observers.forEach { $0.update(temperature: temperature,
-                                      humidity: humidity,
-                                      pressure: pressure)
-        }
+        observers.forEach { $0.update() }
     }
 }

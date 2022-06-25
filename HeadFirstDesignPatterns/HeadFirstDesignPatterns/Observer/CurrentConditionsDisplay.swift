@@ -23,9 +23,9 @@ class CurrentConditionsDisplay {
 // MARK: - Implemented Observer
 
 extension CurrentConditionsDisplay: Observer {
-    func update(temperature: String, humidity: String, pressure: String) {
-        self.temperature = temperature
-        self.humidity = humidity
+    func update() {
+        self.temperature = weatherData.temperature
+        self.humidity = weatherData.humidity
         display()
     }
 }

@@ -23,9 +23,9 @@ class ForecasDisplay {
 // MARK: - Implemented Observer
 
 extension ForecasDisplay: Observer {
-    func update(temperature: String, humidity: String, pressure: String) {
-        self.temperature = temperature
-        self.humidity = humidity
+    func update() {
+        self.temperature = weatherData.temperature
+        self.humidity = weatherData.humidity
         display()
     }
 }

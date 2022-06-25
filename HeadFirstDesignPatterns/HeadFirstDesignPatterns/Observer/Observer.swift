@@ -9,5 +9,5 @@ import Foundation
 
 protocol Observer {
     var id: UUID { get }
-    func update(temperature: String, humidity: String, pressure: String)
+    func update()
 }
