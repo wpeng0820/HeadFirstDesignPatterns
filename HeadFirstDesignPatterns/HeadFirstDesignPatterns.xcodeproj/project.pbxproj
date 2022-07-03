@@ -10,6 +10,11 @@
 		3532627F285F13FA00A33300 /* Duck.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3532627E285F13FA00A33300 /* Duck.swift */; };
 		357AE755285F19D1006BD79A /* FlyBehavior.swift in Sources */ = {isa = PBXBuildFile; fileRef = 357AE754285F19D1006BD79A /* FlyBehavior.swift */; };
 		357AE757285F19F7006BD79A /* QuackBehavior.swift in Sources */ = {isa = PBXBuildFile; fileRef = 357AE756285F19F7006BD79A /* QuackBehavior.swift */; };
+		35978F4728717242005BDAF2 /* Beverage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35978F4628717242005BDAF2 /* Beverage.swift */; };
+		35978F49287172CE005BDAF2 /* HouseBlend.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35978F48287172CE005BDAF2 /* HouseBlend.swift */; };
+		35978F4B2871732C005BDAF2 /* DarkRoast.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35978F4A2871732C005BDAF2 /* DarkRoast.swift */; };
+		35978F4D28717342005BDAF2 /* Decaf.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35978F4C28717342005BDAF2 /* Decaf.swift */; };
+		35978F4F28717350005BDAF2 /* Espresso.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35978F4E28717350005BDAF2 /* Espresso.swift */; };
 		35ADA018285F546200043D70 /* FlyWithWings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35ADA017285F546200043D70 /* FlyWithWings.swift */; };
 		35ADA01A285F54F400043D70 /* FlyNoWay.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35ADA019285F54F400043D70 /* FlyNoWay.swift */; };
 		35ADA01C285F557200043D70 /* Quack.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35ADA01B285F557200043D70 /* Quack.swift */; };
@@ -61,6 +66,11 @@
 		3532627E285F13FA00A33300 /* Duck.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Duck.swift; sourceTree = "<group>"; };
 		357AE754285F19D1006BD79A /* FlyBehavior.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlyBehavior.swift; sourceTree = "<group>"; };
 		357AE756285F19F7006BD79A /* QuackBehavior.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuackBehavior.swift; sourceTree = "<group>"; };
+		35978F4628717242005BDAF2 /* Beverage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Beverage.swift; sourceTree = "<group>"; };
+		35978F48287172CE005BDAF2 /* HouseBlend.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HouseBlend.swift; sourceTree = "<group>"; };
+		35978F4A2871732C005BDAF2 /* DarkRoast.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DarkRoast.swift; sourceTree = "<group>"; };
+		35978F4C28717342005BDAF2 /* Decaf.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Decaf.swift; sourceTree = "<group>"; };
+		35978F4E28717350005BDAF2 /* Espresso.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Espresso.swift; sourceTree = "<group>"; };
 		35ADA017285F546200043D70 /* FlyWithWings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlyWithWings.swift; sourceTree = "<group>"; };
 		35ADA019285F54F400043D70 /* FlyNoWay.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlyNoWay.swift; sourceTree = "<group>"; };
 		35ADA01B285F557200043D70 /* Quack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Quack.swift; sourceTree = "<group>"; };
@@ -129,6 +139,18 @@
 				3532627E285F13FA00A33300 /* Duck.swift */,
 			);
 			path = Strategy;
+			sourceTree = "<group>";
+		};
+		35978F452871720E005BDAF2 /* Decoration */ = {
+			isa = PBXGroup;
+			children = (
+				35978F4628717242005BDAF2 /* Beverage.swift */,
+				35978F48287172CE005BDAF2 /* HouseBlend.swift */,
+				35978F4E28717350005BDAF2 /* Espresso.swift */,
+				35978F4C28717342005BDAF2 /* Decaf.swift */,
+				35978F4A2871732C005BDAF2 /* DarkRoast.swift */,
+			);
+			path = Decoration;
 			sourceTree = "<group>";
 		};
 		35ADA015285F541C00043D70 /* FlyBehavior */ = {
@@ -209,6 +231,7 @@
 		35E20F232855C16400AA86BC /* HeadFirstDesignPatterns */ = {
 			isa = PBXGroup;
 			children = (
+				35978F452871720E005BDAF2 /* Decoration */,
 				35ADAB512866D5A500DE3CA1 /* Observer */,
 				3532627B285F139F00A33300 /* Strategy */,
 				35E20F242855C16400AA86BC /* AppDelegate.swift */,
@@ -377,6 +400,7 @@
 				35ADA018285F546200043D70 /* FlyWithWings.swift in Sources */,
 				35ADA025285F652A00043D70 /* Mallar.swift in Sources */,
 				35ADA029285F659400043D70 /* Rubber.swift in Sources */,
+				35978F49287172CE005BDAF2 /* HouseBlend.swift in Sources */,
 				357AE757285F19F7006BD79A /* QuackBehavior.swift in Sources */,
 				35E20F292855C16400AA86BC /* ViewController.swift in Sources */,
 				35ADAB552866D77A00DE3CA1 /* CurrentConditionsDisplay.swift in Sources */,
@@ -384,13 +408,17 @@
 				35ADA02B285F65B000043D70 /* Decoy.swift in Sources */,
 				35E20F252855C16400AA86BC /* AppDelegate.swift in Sources */,
 				35ADA022285F598C00043D70 /* DisplayBehavior.swift in Sources */,
+				35978F4F28717350005BDAF2 /* Espresso.swift in Sources */,
+				35978F4D28717342005BDAF2 /* Decaf.swift in Sources */,
 				35ADA01A285F54F400043D70 /* FlyNoWay.swift in Sources */,
 				35ADA01C285F557200043D70 /* Quack.swift in Sources */,
 				35ADA01E285F55BC00043D70 /* Squeak.swift in Sources */,
 				357AE755285F19D1006BD79A /* FlyBehavior.swift in Sources */,
 				35ADAB5B2866E95E00DE3CA1 /* Subject.swift in Sources */,
 				35ADAB5F2866E9DE00DE3CA1 /* DisplayElement.swift in Sources */,
+				35978F4728717242005BDAF2 /* Beverage.swift in Sources */,
 				35ADAB532866D62D00DE3CA1 /* WeatherData.swift in Sources */,
+				35978F4B2871732C005BDAF2 /* DarkRoast.swift in Sources */,
 				35ADA027285F656C00043D70 /* Redhead.swift in Sources */,
 				35ADAB5D2866E9C600DE3CA1 /* Observer.swift in Sources */,
 				35ADA020285F566400043D70 /* MuteQuack.swift in Sources */,
