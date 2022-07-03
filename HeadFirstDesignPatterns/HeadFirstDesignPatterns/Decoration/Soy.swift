@@ -8,15 +8,20 @@
 import Foundation
 
 class Soy: CondimentDecorator {
-    var beverage: Beverage
+    override var description: String { beverage.description + ", Soy" }
     
-    required init(beverage: Beverage) {
-        self.beverage = beverage
-    }
-    
-    var description: String { beverage.description + ", Soy" }
-    
-    func cost() -> Double {
-        return beverage.cost() + 0.15
+    override func cost() -> Double {
+        var cost = beverage.cost() + 0.1
+        switch beverage.getSize() {
+        case .tall:
+            cost += 0.1
+            
+        case .grande:
+            cost +=  0.15
+
+        case .venti:
+            cost +=  0.2
+        }
+        return cost
     }
 }

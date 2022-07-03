@@ -8,15 +8,9 @@
 import Foundation
 
 class Whip: CondimentDecorator {
-    var beverage: Beverage
+    override var description: String { beverage.description + ", Whip" }
     
-    required init(beverage: Beverage) {
-        self.beverage = beverage
-    }
-    
-    var description: String { beverage.description + ", Whip" }
-    
-    func cost() -> Double {
-        return beverage.cost() + 0.10
+    override func cost() -> Double {
+        return (beverage.cost() + 0.10)
     }
 }

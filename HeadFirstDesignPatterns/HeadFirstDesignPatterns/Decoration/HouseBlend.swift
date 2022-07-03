@@ -8,10 +8,9 @@
 import Foundation
 
 class HouseBlend: Beverage {
-    var description: String { "HouseBlend" }
+    override var description: String { "HouseBlend" }
     
-    func cost() -> Double {
-        print("HouseBlend cost")
+    override func cost() -> Double {
         return 0.89
     }
 }

@@ -8,15 +8,9 @@
 import Foundation
 
 class Mocha: CondimentDecorator {
-    var beverage: Beverage
+    override var description: String { beverage.description + ", Mocha" }
     
-    required init(beverage: Beverage) {
-        self.beverage = beverage
-    }
-    
-    var description: String { beverage.description + ", Mocha" }
-    
-    func cost() -> Double {
-        return beverage.cost() + 0.20
+    override func cost() -> Double {
+        return beverage.cost() + 0.2
     }
 }
