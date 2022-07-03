@@ -15,6 +15,11 @@
 		35978F4B2871732C005BDAF2 /* DarkRoast.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35978F4A2871732C005BDAF2 /* DarkRoast.swift */; };
 		35978F4D28717342005BDAF2 /* Decaf.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35978F4C28717342005BDAF2 /* Decaf.swift */; };
 		35978F4F28717350005BDAF2 /* Espresso.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35978F4E28717350005BDAF2 /* Espresso.swift */; };
+		35978F5128717D51005BDAF2 /* CondimentDecorator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35978F5028717D51005BDAF2 /* CondimentDecorator.swift */; };
+		35978F5328718954005BDAF2 /* Whip.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35978F5228718954005BDAF2 /* Whip.swift */; };
+		35978F5528718967005BDAF2 /* Soy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35978F5428718967005BDAF2 /* Soy.swift */; };
+		35978F572871897A005BDAF2 /* Mocha.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35978F562871897A005BDAF2 /* Mocha.swift */; };
+		35978F592871898B005BDAF2 /* Milk.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35978F582871898B005BDAF2 /* Milk.swift */; };
 		35ADA018285F546200043D70 /* FlyWithWings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35ADA017285F546200043D70 /* FlyWithWings.swift */; };
 		35ADA01A285F54F400043D70 /* FlyNoWay.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35ADA019285F54F400043D70 /* FlyNoWay.swift */; };
 		35ADA01C285F557200043D70 /* Quack.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35ADA01B285F557200043D70 /* Quack.swift */; };
@@ -71,6 +76,11 @@
 		35978F4A2871732C005BDAF2 /* DarkRoast.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DarkRoast.swift; sourceTree = "<group>"; };
 		35978F4C28717342005BDAF2 /* Decaf.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Decaf.swift; sourceTree = "<group>"; };
 		35978F4E28717350005BDAF2 /* Espresso.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Espresso.swift; sourceTree = "<group>"; };
+		35978F5028717D51005BDAF2 /* CondimentDecorator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CondimentDecorator.swift; sourceTree = "<group>"; };
+		35978F5228718954005BDAF2 /* Whip.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Whip.swift; sourceTree = "<group>"; };
+		35978F5428718967005BDAF2 /* Soy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Soy.swift; sourceTree = "<group>"; };
+		35978F562871897A005BDAF2 /* Mocha.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Mocha.swift; sourceTree = "<group>"; };
+		35978F582871898B005BDAF2 /* Milk.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Milk.swift; sourceTree = "<group>"; };
 		35ADA017285F546200043D70 /* FlyWithWings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlyWithWings.swift; sourceTree = "<group>"; };
 		35ADA019285F54F400043D70 /* FlyNoWay.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlyNoWay.swift; sourceTree = "<group>"; };
 		35ADA01B285F557200043D70 /* Quack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Quack.swift; sourceTree = "<group>"; };
@@ -149,6 +159,11 @@
 				35978F4E28717350005BDAF2 /* Espresso.swift */,
 				35978F4C28717342005BDAF2 /* Decaf.swift */,
 				35978F4A2871732C005BDAF2 /* DarkRoast.swift */,
+				35978F5028717D51005BDAF2 /* CondimentDecorator.swift */,
+				35978F582871898B005BDAF2 /* Milk.swift */,
+				35978F562871897A005BDAF2 /* Mocha.swift */,
+				35978F5228718954005BDAF2 /* Whip.swift */,
+				35978F5428718967005BDAF2 /* Soy.swift */,
 			);
 			path = Decoration;
 			sourceTree = "<group>";
@@ -396,6 +411,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				35ADAB572866D7EA00DE3CA1 /* StatisticsDisplay.swift in Sources */,
+				35978F592871898B005BDAF2 /* Milk.swift in Sources */,
 				3532627F285F13FA00A33300 /* Duck.swift in Sources */,
 				35ADA018285F546200043D70 /* FlyWithWings.swift in Sources */,
 				35ADA025285F652A00043D70 /* Mallar.swift in Sources */,
@@ -409,18 +425,22 @@
 				35E20F252855C16400AA86BC /* AppDelegate.swift in Sources */,
 				35ADA022285F598C00043D70 /* DisplayBehavior.swift in Sources */,
 				35978F4F28717350005BDAF2 /* Espresso.swift in Sources */,
+				35978F572871897A005BDAF2 /* Mocha.swift in Sources */,
 				35978F4D28717342005BDAF2 /* Decaf.swift in Sources */,
 				35ADA01A285F54F400043D70 /* FlyNoWay.swift in Sources */,
 				35ADA01C285F557200043D70 /* Quack.swift in Sources */,
 				35ADA01E285F55BC00043D70 /* Squeak.swift in Sources */,
 				357AE755285F19D1006BD79A /* FlyBehavior.swift in Sources */,
+				35978F5528718967005BDAF2 /* Soy.swift in Sources */,
 				35ADAB5B2866E95E00DE3CA1 /* Subject.swift in Sources */,
 				35ADAB5F2866E9DE00DE3CA1 /* DisplayElement.swift in Sources */,
+				35978F5128717D51005BDAF2 /* CondimentDecorator.swift in Sources */,
 				35978F4728717242005BDAF2 /* Beverage.swift in Sources */,
 				35ADAB532866D62D00DE3CA1 /* WeatherData.swift in Sources */,
 				35978F4B2871732C005BDAF2 /* DarkRoast.swift in Sources */,
 				35ADA027285F656C00043D70 /* Redhead.swift in Sources */,
 				35ADAB5D2866E9C600DE3CA1 /* Observer.swift in Sources */,
+				35978F5328718954005BDAF2 /* Whip.swift in Sources */,
 				35ADA020285F566400043D70 /* MuteQuack.swift in Sources */,
 				35E20F272855C16400AA86BC /* SceneDelegate.swift in Sources */,
 			);
