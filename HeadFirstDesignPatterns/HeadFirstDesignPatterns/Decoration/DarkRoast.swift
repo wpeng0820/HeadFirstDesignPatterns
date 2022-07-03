@@ -8,7 +8,9 @@
 import Foundation
 
 class DarkRoast: Beverage {
-    override func cost() {
+    override func cost() -> Int {
         print("DarkRoast cost")
+        let baseCoast = super.cost()
+        return baseCoast + 200
     }
 }

@@ -8,7 +8,9 @@
 import Foundation
 
 class HouseBlend: Beverage {
-    override func cost() {
+    override func cost() -> Int {
         print("HouseBlend cost")
+        let baseCoast = super.cost()
+        return baseCoast + 100
     }
 }
