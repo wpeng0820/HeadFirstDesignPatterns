@@ -16,6 +16,8 @@
 		353C908E28FD547800293060 /* ClamPizza.swift in Sources */ = {isa = PBXBuildFile; fileRef = 353C908D28FD547800293060 /* ClamPizza.swift */; };
 		353C909028FD54AC00293060 /* VeggiePizza.swift in Sources */ = {isa = PBXBuildFile; fileRef = 353C908F28FD54AC00293060 /* VeggiePizza.swift */; };
 		353C909228FD55F800293060 /* SimplePizzaFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 353C909128FD55F800293060 /* SimplePizzaFactory.swift */; };
+		353C909428FD62D100293060 /* NYSimplePizzaFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 353C909328FD62D100293060 /* NYSimplePizzaFactory.swift */; };
+		353C909628FD62EB00293060 /* ChicagoSimplePizzaFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 353C909528FD62EB00293060 /* ChicagoSimplePizzaFactory.swift */; };
 		357AE755285F19D1006BD79A /* FlyBehavior.swift in Sources */ = {isa = PBXBuildFile; fileRef = 357AE754285F19D1006BD79A /* FlyBehavior.swift */; };
 		357AE757285F19F7006BD79A /* QuackBehavior.swift in Sources */ = {isa = PBXBuildFile; fileRef = 357AE756285F19F7006BD79A /* QuackBehavior.swift */; };
 		35978F4728717242005BDAF2 /* Beverage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35978F4628717242005BDAF2 /* Beverage.swift */; };
@@ -85,6 +87,8 @@
 		353C908D28FD547800293060 /* ClamPizza.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClamPizza.swift; sourceTree = "<group>"; };
 		353C908F28FD54AC00293060 /* VeggiePizza.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VeggiePizza.swift; sourceTree = "<group>"; };
 		353C909128FD55F800293060 /* SimplePizzaFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimplePizzaFactory.swift; sourceTree = "<group>"; };
+		353C909328FD62D100293060 /* NYSimplePizzaFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NYSimplePizzaFactory.swift; sourceTree = "<group>"; };
+		353C909528FD62EB00293060 /* ChicagoSimplePizzaFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChicagoSimplePizzaFactory.swift; sourceTree = "<group>"; };
 		357AE754285F19D1006BD79A /* FlyBehavior.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlyBehavior.swift; sourceTree = "<group>"; };
 		357AE756285F19F7006BD79A /* QuackBehavior.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuackBehavior.swift; sourceTree = "<group>"; };
 		35978F4628717242005BDAF2 /* Beverage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Beverage.swift; sourceTree = "<group>"; };
@@ -186,6 +190,8 @@
 				353C908D28FD547800293060 /* ClamPizza.swift */,
 				353C908F28FD54AC00293060 /* VeggiePizza.swift */,
 				353C909128FD55F800293060 /* SimplePizzaFactory.swift */,
+				353C909528FD62EB00293060 /* ChicagoSimplePizzaFactory.swift */,
+				353C909328FD62D100293060 /* NYSimplePizzaFactory.swift */,
 			);
 			path = Simple;
 			sourceTree = "<group>";
@@ -458,6 +464,7 @@
 				35ADA025285F652A00043D70 /* Mallar.swift in Sources */,
 				35ADA029285F659400043D70 /* Rubber.swift in Sources */,
 				35978F49287172CE005BDAF2 /* HouseBlend.swift in Sources */,
+				353C909428FD62D100293060 /* NYSimplePizzaFactory.swift in Sources */,
 				357AE757285F19F7006BD79A /* QuackBehavior.swift in Sources */,
 				35E20F292855C16400AA86BC /* ViewController.swift in Sources */,
 				35ADAB552866D77A00DE3CA1 /* CurrentConditionsDisplay.swift in Sources */,
@@ -484,6 +491,7 @@
 				35978F4728717242005BDAF2 /* Beverage.swift in Sources */,
 				353C908828FD51C800293060 /* CheesePizza.swift in Sources */,
 				35ADAB532866D62D00DE3CA1 /* WeatherData.swift in Sources */,
+				353C909628FD62EB00293060 /* ChicagoSimplePizzaFactory.swift in Sources */,
 				353C908628FD50E100293060 /* Pizza.swift in Sources */,
 				35978F4B2871732C005BDAF2 /* DarkRoast.swift in Sources */,
 				35ADA027285F656C00043D70 /* Redhead.swift in Sources */,

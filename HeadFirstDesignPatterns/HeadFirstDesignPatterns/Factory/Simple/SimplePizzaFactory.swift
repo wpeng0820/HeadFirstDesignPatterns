@@ -7,22 +7,7 @@
 
 import Foundation
 
-class SimplePizzaFactory {
-    func createPizza(with type: PizzaStore.PizzaType) -> Pizza {
-        let pizza: Pizza
-        switch type {
-        case .cheese:
-            pizza = CheesePizza()
-            
-        case .pepperoni:
-            pizza = PepperoniPizza()
-           
-        case .clam:
-            pizza = ClamPizza()
-            
-        case .veggie:
-            pizza = VeggiePizza()
-        }
-        return pizza
-    }
+protocol SimplePizzaFactory {
+    func createPizza(with type: PizzaStore.PizzaType) -> Pizza
 }
+
