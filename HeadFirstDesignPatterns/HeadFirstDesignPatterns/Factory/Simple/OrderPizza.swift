@@ -10,8 +10,9 @@ import Foundation
 class OrderPizza {
     enum PizzaType {
         case cheese
-        case greek
         case pepperoni
+        case clam
+        case veggie
     }
     
     init(type: PizzaType) {
@@ -21,11 +22,15 @@ class OrderPizza {
         case .cheese:
             pizza = CheesePizza()
             
-        case .greek:
-            pizza = GreekPizza()
-            
         case .pepperoni:
             pizza = PepperoniPizza()
+           
+        case .clam:
+            pizza = ClamPizza()
+            
+        case .veggie:
+            pizza = VeggiePizza()
+        
         }
         pizza.prepare()
         pizza.bake()
