@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		3532627F285F13FA00A33300 /* Duck.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3532627E285F13FA00A33300 /* Duck.swift */; };
+		353C908428FD4FF600293060 /* OrderPizza.swift in Sources */ = {isa = PBXBuildFile; fileRef = 353C908328FD4FF600293060 /* OrderPizza.swift */; };
+		353C908628FD50E100293060 /* Pizza.swift in Sources */ = {isa = PBXBuildFile; fileRef = 353C908528FD50E100293060 /* Pizza.swift */; };
 		357AE755285F19D1006BD79A /* FlyBehavior.swift in Sources */ = {isa = PBXBuildFile; fileRef = 357AE754285F19D1006BD79A /* FlyBehavior.swift */; };
 		357AE757285F19F7006BD79A /* QuackBehavior.swift in Sources */ = {isa = PBXBuildFile; fileRef = 357AE756285F19F7006BD79A /* QuackBehavior.swift */; };
 		35978F4728717242005BDAF2 /* Beverage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35978F4628717242005BDAF2 /* Beverage.swift */; };
@@ -69,6 +71,8 @@
 
 /* Begin PBXFileReference section */
 		3532627E285F13FA00A33300 /* Duck.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Duck.swift; sourceTree = "<group>"; };
+		353C908328FD4FF600293060 /* OrderPizza.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderPizza.swift; sourceTree = "<group>"; };
+		353C908528FD50E100293060 /* Pizza.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pizza.swift; sourceTree = "<group>"; };
 		357AE754285F19D1006BD79A /* FlyBehavior.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlyBehavior.swift; sourceTree = "<group>"; };
 		357AE756285F19F7006BD79A /* QuackBehavior.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuackBehavior.swift; sourceTree = "<group>"; };
 		35978F4628717242005BDAF2 /* Beverage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Beverage.swift; sourceTree = "<group>"; };
@@ -149,6 +153,23 @@
 				3532627E285F13FA00A33300 /* Duck.swift */,
 			);
 			path = Strategy;
+			sourceTree = "<group>";
+		};
+		353C908128FD4FCE00293060 /* Factory */ = {
+			isa = PBXGroup;
+			children = (
+				353C908228FD4FD800293060 /* Simple */,
+			);
+			path = Factory;
+			sourceTree = "<group>";
+		};
+		353C908228FD4FD800293060 /* Simple */ = {
+			isa = PBXGroup;
+			children = (
+				353C908328FD4FF600293060 /* OrderPizza.swift */,
+				353C908528FD50E100293060 /* Pizza.swift */,
+			);
+			path = Simple;
 			sourceTree = "<group>";
 		};
 		35978F452871720E005BDAF2 /* Decoration */ = {
@@ -246,6 +267,7 @@
 		35E20F232855C16400AA86BC /* HeadFirstDesignPatterns */ = {
 			isa = PBXGroup;
 			children = (
+				353C908128FD4FCE00293060 /* Factory */,
 				35978F452871720E005BDAF2 /* Decoration */,
 				35ADAB512866D5A500DE3CA1 /* Observer */,
 				3532627B285F139F00A33300 /* Strategy */,
@@ -425,6 +447,7 @@
 				35E20F252855C16400AA86BC /* AppDelegate.swift in Sources */,
 				35ADA022285F598C00043D70 /* DisplayBehavior.swift in Sources */,
 				35978F4F28717350005BDAF2 /* Espresso.swift in Sources */,
+				353C908428FD4FF600293060 /* OrderPizza.swift in Sources */,
 				35978F572871897A005BDAF2 /* Mocha.swift in Sources */,
 				35978F4D28717342005BDAF2 /* Decaf.swift in Sources */,
 				35ADA01A285F54F400043D70 /* FlyNoWay.swift in Sources */,
@@ -437,6 +460,7 @@
 				35978F5128717D51005BDAF2 /* CondimentDecorator.swift in Sources */,
 				35978F4728717242005BDAF2 /* Beverage.swift in Sources */,
 				35ADAB532866D62D00DE3CA1 /* WeatherData.swift in Sources */,
+				353C908628FD50E100293060 /* Pizza.swift in Sources */,
 				35978F4B2871732C005BDAF2 /* DarkRoast.swift in Sources */,
 				35ADA027285F656C00043D70 /* Redhead.swift in Sources */,
 				35ADAB5D2866E9C600DE3CA1 /* Observer.swift in Sources */,
