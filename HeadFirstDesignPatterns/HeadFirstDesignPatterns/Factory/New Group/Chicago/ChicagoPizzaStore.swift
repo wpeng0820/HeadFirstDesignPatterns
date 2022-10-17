@@ -1,5 +1,5 @@
 //
-//  NYSimplePizzaFactory.swift
+//  ChicagoPizzaStore.swift
 //  HeadFirstDesignPatterns
 //
 //  Created by Will Peng on 2022/10/17.
@@ -7,21 +7,21 @@
 
 import Foundation
 
-class NYSimplePizzaFactory: SimplePizzaFactory {
-    func createPizza(with type: PizzaStore.PizzaType) -> Pizza {
+class ChicagoPizzaStore: PizzaStore {    
+    func createPizza(with type: PizzaType) -> Pizza {
         let pizza: Pizza
         switch type {
         case .cheese:
-            pizza = CheesePizza()
+            pizza = ChicagoStyleCheesePizza()
             
         case .pepperoni:
-            pizza = PepperoniPizza()
+            pizza = ChicagoStylePepperoniPizza()
            
         case .clam:
-            pizza = ClamPizza()
+            pizza = ChicagoStyleClamPizza()
             
         case .veggie:
-            pizza = VeggiePizza()
+            pizza = ChicagoStyleVeggiePizza()
         }
         return pizza
     }

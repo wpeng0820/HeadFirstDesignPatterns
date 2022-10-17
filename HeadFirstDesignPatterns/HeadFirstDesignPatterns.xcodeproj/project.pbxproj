@@ -10,14 +10,16 @@
 		3532627F285F13FA00A33300 /* Duck.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3532627E285F13FA00A33300 /* Duck.swift */; };
 		353C908428FD4FF600293060 /* PizzaStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 353C908328FD4FF600293060 /* PizzaStore.swift */; };
 		353C908628FD50E100293060 /* Pizza.swift in Sources */ = {isa = PBXBuildFile; fileRef = 353C908528FD50E100293060 /* Pizza.swift */; };
-		353C908828FD51C800293060 /* CheesePizza.swift in Sources */ = {isa = PBXBuildFile; fileRef = 353C908728FD51C800293060 /* CheesePizza.swift */; };
-		353C908A28FD524200293060 /* GreekPizza.swift in Sources */ = {isa = PBXBuildFile; fileRef = 353C908928FD524200293060 /* GreekPizza.swift */; };
-		353C908C28FD52FE00293060 /* PepperoniPizza.swift in Sources */ = {isa = PBXBuildFile; fileRef = 353C908B28FD52FE00293060 /* PepperoniPizza.swift */; };
-		353C908E28FD547800293060 /* ClamPizza.swift in Sources */ = {isa = PBXBuildFile; fileRef = 353C908D28FD547800293060 /* ClamPizza.swift */; };
-		353C909028FD54AC00293060 /* VeggiePizza.swift in Sources */ = {isa = PBXBuildFile; fileRef = 353C908F28FD54AC00293060 /* VeggiePizza.swift */; };
-		353C909228FD55F800293060 /* SimplePizzaFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 353C909128FD55F800293060 /* SimplePizzaFactory.swift */; };
-		353C909428FD62D100293060 /* NYSimplePizzaFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 353C909328FD62D100293060 /* NYSimplePizzaFactory.swift */; };
-		353C909628FD62EB00293060 /* ChicagoSimplePizzaFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 353C909528FD62EB00293060 /* ChicagoSimplePizzaFactory.swift */; };
+		353C909928FD8D1800293060 /* NYPizzaStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 353C909828FD8D1800293060 /* NYPizzaStore.swift */; };
+		353C909B28FD8D3000293060 /* ChicagoPizzaStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 353C909A28FD8D3000293060 /* ChicagoPizzaStore.swift */; };
+		353C909D28FD8D7B00293060 /* NYStyleCheesePizza.swift in Sources */ = {isa = PBXBuildFile; fileRef = 353C909C28FD8D7B00293060 /* NYStyleCheesePizza.swift */; };
+		353C909F28FD8DBD00293060 /* NYStylePepperoniPizza.swift in Sources */ = {isa = PBXBuildFile; fileRef = 353C909E28FD8DBD00293060 /* NYStylePepperoniPizza.swift */; };
+		353C90A128FD8DDC00293060 /* NYStyleClamPizza.swift in Sources */ = {isa = PBXBuildFile; fileRef = 353C90A028FD8DDC00293060 /* NYStyleClamPizza.swift */; };
+		353C90A328FD8DF700293060 /* NYStyleVeggiePizza.swift in Sources */ = {isa = PBXBuildFile; fileRef = 353C90A228FD8DF700293060 /* NYStyleVeggiePizza.swift */; };
+		353C90A628FD8E5600293060 /* ChicagoStyleCheesePizza.swift in Sources */ = {isa = PBXBuildFile; fileRef = 353C90A528FD8E5600293060 /* ChicagoStyleCheesePizza.swift */; };
+		353C90A828FD8E7900293060 /* ChicagoStylePepperoniPizza.swift in Sources */ = {isa = PBXBuildFile; fileRef = 353C90A728FD8E7900293060 /* ChicagoStylePepperoniPizza.swift */; };
+		353C90AA28FD8E9A00293060 /* ChicagoStyleClamPizza.swift in Sources */ = {isa = PBXBuildFile; fileRef = 353C90A928FD8E9A00293060 /* ChicagoStyleClamPizza.swift */; };
+		353C90AC28FD8EBD00293060 /* ChicagoStyleVeggiePizza.swift in Sources */ = {isa = PBXBuildFile; fileRef = 353C90AB28FD8EBD00293060 /* ChicagoStyleVeggiePizza.swift */; };
 		357AE755285F19D1006BD79A /* FlyBehavior.swift in Sources */ = {isa = PBXBuildFile; fileRef = 357AE754285F19D1006BD79A /* FlyBehavior.swift */; };
 		357AE757285F19F7006BD79A /* QuackBehavior.swift in Sources */ = {isa = PBXBuildFile; fileRef = 357AE756285F19F7006BD79A /* QuackBehavior.swift */; };
 		35978F4728717242005BDAF2 /* Beverage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35978F4628717242005BDAF2 /* Beverage.swift */; };
@@ -81,14 +83,16 @@
 		3532627E285F13FA00A33300 /* Duck.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Duck.swift; sourceTree = "<group>"; };
 		353C908328FD4FF600293060 /* PizzaStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PizzaStore.swift; sourceTree = "<group>"; };
 		353C908528FD50E100293060 /* Pizza.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pizza.swift; sourceTree = "<group>"; };
-		353C908728FD51C800293060 /* CheesePizza.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheesePizza.swift; sourceTree = "<group>"; };
-		353C908928FD524200293060 /* GreekPizza.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GreekPizza.swift; sourceTree = "<group>"; };
-		353C908B28FD52FE00293060 /* PepperoniPizza.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PepperoniPizza.swift; sourceTree = "<group>"; };
-		353C908D28FD547800293060 /* ClamPizza.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClamPizza.swift; sourceTree = "<group>"; };
-		353C908F28FD54AC00293060 /* VeggiePizza.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VeggiePizza.swift; sourceTree = "<group>"; };
-		353C909128FD55F800293060 /* SimplePizzaFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimplePizzaFactory.swift; sourceTree = "<group>"; };
-		353C909328FD62D100293060 /* NYSimplePizzaFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NYSimplePizzaFactory.swift; sourceTree = "<group>"; };
-		353C909528FD62EB00293060 /* ChicagoSimplePizzaFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChicagoSimplePizzaFactory.swift; sourceTree = "<group>"; };
+		353C909828FD8D1800293060 /* NYPizzaStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NYPizzaStore.swift; sourceTree = "<group>"; };
+		353C909A28FD8D3000293060 /* ChicagoPizzaStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChicagoPizzaStore.swift; sourceTree = "<group>"; };
+		353C909C28FD8D7B00293060 /* NYStyleCheesePizza.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NYStyleCheesePizza.swift; sourceTree = "<group>"; };
+		353C909E28FD8DBD00293060 /* NYStylePepperoniPizza.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NYStylePepperoniPizza.swift; sourceTree = "<group>"; };
+		353C90A028FD8DDC00293060 /* NYStyleClamPizza.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NYStyleClamPizza.swift; sourceTree = "<group>"; };
+		353C90A228FD8DF700293060 /* NYStyleVeggiePizza.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NYStyleVeggiePizza.swift; sourceTree = "<group>"; };
+		353C90A528FD8E5600293060 /* ChicagoStyleCheesePizza.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChicagoStyleCheesePizza.swift; sourceTree = "<group>"; };
+		353C90A728FD8E7900293060 /* ChicagoStylePepperoniPizza.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChicagoStylePepperoniPizza.swift; sourceTree = "<group>"; };
+		353C90A928FD8E9A00293060 /* ChicagoStyleClamPizza.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChicagoStyleClamPizza.swift; sourceTree = "<group>"; };
+		353C90AB28FD8EBD00293060 /* ChicagoStyleVeggiePizza.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChicagoStyleVeggiePizza.swift; sourceTree = "<group>"; };
 		357AE754285F19D1006BD79A /* FlyBehavior.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlyBehavior.swift; sourceTree = "<group>"; };
 		357AE756285F19F7006BD79A /* QuackBehavior.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuackBehavior.swift; sourceTree = "<group>"; };
 		35978F4628717242005BDAF2 /* Beverage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Beverage.swift; sourceTree = "<group>"; };
@@ -174,6 +178,7 @@
 		353C908128FD4FCE00293060 /* Factory */ = {
 			isa = PBXGroup;
 			children = (
+				353C909728FD8CF800293060 /* New Group */,
 				353C908228FD4FD800293060 /* Simple */,
 			);
 			path = Factory;
@@ -184,16 +189,41 @@
 			children = (
 				353C908328FD4FF600293060 /* PizzaStore.swift */,
 				353C908528FD50E100293060 /* Pizza.swift */,
-				353C908728FD51C800293060 /* CheesePizza.swift */,
-				353C908928FD524200293060 /* GreekPizza.swift */,
-				353C908B28FD52FE00293060 /* PepperoniPizza.swift */,
-				353C908D28FD547800293060 /* ClamPizza.swift */,
-				353C908F28FD54AC00293060 /* VeggiePizza.swift */,
-				353C909128FD55F800293060 /* SimplePizzaFactory.swift */,
-				353C909528FD62EB00293060 /* ChicagoSimplePizzaFactory.swift */,
-				353C909328FD62D100293060 /* NYSimplePizzaFactory.swift */,
 			);
 			path = Simple;
+			sourceTree = "<group>";
+		};
+		353C909728FD8CF800293060 /* New Group */ = {
+			isa = PBXGroup;
+			children = (
+				353C90AD28FD8F9700293060 /* Chicago */,
+				353C90A428FD8E2600293060 /* NY */,
+			);
+			path = "New Group";
+			sourceTree = "<group>";
+		};
+		353C90A428FD8E2600293060 /* NY */ = {
+			isa = PBXGroup;
+			children = (
+				353C909828FD8D1800293060 /* NYPizzaStore.swift */,
+				353C909C28FD8D7B00293060 /* NYStyleCheesePizza.swift */,
+				353C909E28FD8DBD00293060 /* NYStylePepperoniPizza.swift */,
+				353C90A028FD8DDC00293060 /* NYStyleClamPizza.swift */,
+				353C90A228FD8DF700293060 /* NYStyleVeggiePizza.swift */,
+			);
+			path = NY;
+			sourceTree = "<group>";
+		};
+		353C90AD28FD8F9700293060 /* Chicago */ = {
+			isa = PBXGroup;
+			children = (
+				353C909A28FD8D3000293060 /* ChicagoPizzaStore.swift */,
+				353C90A528FD8E5600293060 /* ChicagoStyleCheesePizza.swift */,
+				353C90A728FD8E7900293060 /* ChicagoStylePepperoniPizza.swift */,
+				353C90A928FD8E9A00293060 /* ChicagoStyleClamPizza.swift */,
+				353C90AB28FD8EBD00293060 /* ChicagoStyleVeggiePizza.swift */,
+			);
+			path = Chicago;
 			sourceTree = "<group>";
 		};
 		35978F452871720E005BDAF2 /* Decoration */ = {
@@ -457,41 +487,41 @@
 			buildActionMask = 2147483647;
 			files = (
 				35ADAB572866D7EA00DE3CA1 /* StatisticsDisplay.swift in Sources */,
+				353C90A128FD8DDC00293060 /* NYStyleClamPizza.swift in Sources */,
 				35978F592871898B005BDAF2 /* Milk.swift in Sources */,
-				353C908A28FD524200293060 /* GreekPizza.swift in Sources */,
+				353C909F28FD8DBD00293060 /* NYStylePepperoniPizza.swift in Sources */,
 				3532627F285F13FA00A33300 /* Duck.swift in Sources */,
 				35ADA018285F546200043D70 /* FlyWithWings.swift in Sources */,
 				35ADA025285F652A00043D70 /* Mallar.swift in Sources */,
 				35ADA029285F659400043D70 /* Rubber.swift in Sources */,
 				35978F49287172CE005BDAF2 /* HouseBlend.swift in Sources */,
-				353C909428FD62D100293060 /* NYSimplePizzaFactory.swift in Sources */,
 				357AE757285F19F7006BD79A /* QuackBehavior.swift in Sources */,
 				35E20F292855C16400AA86BC /* ViewController.swift in Sources */,
 				35ADAB552866D77A00DE3CA1 /* CurrentConditionsDisplay.swift in Sources */,
-				353C908C28FD52FE00293060 /* PepperoniPizza.swift in Sources */,
 				35ADAB592866D82B00DE3CA1 /* ForecasDisplay.swift in Sources */,
 				35ADA02B285F65B000043D70 /* Decoy.swift in Sources */,
-				353C909228FD55F800293060 /* SimplePizzaFactory.swift in Sources */,
 				35E20F252855C16400AA86BC /* AppDelegate.swift in Sources */,
 				35ADA022285F598C00043D70 /* DisplayBehavior.swift in Sources */,
 				35978F4F28717350005BDAF2 /* Espresso.swift in Sources */,
 				353C908428FD4FF600293060 /* PizzaStore.swift in Sources */,
 				35978F572871897A005BDAF2 /* Mocha.swift in Sources */,
+				353C90AA28FD8E9A00293060 /* ChicagoStyleClamPizza.swift in Sources */,
+				353C90A628FD8E5600293060 /* ChicagoStyleCheesePizza.swift in Sources */,
 				35978F4D28717342005BDAF2 /* Decaf.swift in Sources */,
 				35ADA01A285F54F400043D70 /* FlyNoWay.swift in Sources */,
 				35ADA01C285F557200043D70 /* Quack.swift in Sources */,
+				353C909D28FD8D7B00293060 /* NYStyleCheesePizza.swift in Sources */,
 				35ADA01E285F55BC00043D70 /* Squeak.swift in Sources */,
 				357AE755285F19D1006BD79A /* FlyBehavior.swift in Sources */,
 				35978F5528718967005BDAF2 /* Soy.swift in Sources */,
-				353C909028FD54AC00293060 /* VeggiePizza.swift in Sources */,
+				353C909B28FD8D3000293060 /* ChicagoPizzaStore.swift in Sources */,
 				35ADAB5B2866E95E00DE3CA1 /* Subject.swift in Sources */,
 				35ADAB5F2866E9DE00DE3CA1 /* DisplayElement.swift in Sources */,
-				353C908E28FD547800293060 /* ClamPizza.swift in Sources */,
 				35978F5128717D51005BDAF2 /* CondimentDecorator.swift in Sources */,
+				353C90AC28FD8EBD00293060 /* ChicagoStyleVeggiePizza.swift in Sources */,
 				35978F4728717242005BDAF2 /* Beverage.swift in Sources */,
-				353C908828FD51C800293060 /* CheesePizza.swift in Sources */,
+				353C90A828FD8E7900293060 /* ChicagoStylePepperoniPizza.swift in Sources */,
 				35ADAB532866D62D00DE3CA1 /* WeatherData.swift in Sources */,
-				353C909628FD62EB00293060 /* ChicagoSimplePizzaFactory.swift in Sources */,
 				353C908628FD50E100293060 /* Pizza.swift in Sources */,
 				35978F4B2871732C005BDAF2 /* DarkRoast.swift in Sources */,
 				35ADA027285F656C00043D70 /* Redhead.swift in Sources */,
@@ -499,6 +529,8 @@
 				35978F5328718954005BDAF2 /* Whip.swift in Sources */,
 				35ADA020285F566400043D70 /* MuteQuack.swift in Sources */,
 				35E20F272855C16400AA86BC /* SceneDelegate.swift in Sources */,
+				353C90A328FD8DF700293060 /* NYStyleVeggiePizza.swift in Sources */,
+				353C909928FD8D1800293060 /* NYPizzaStore.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

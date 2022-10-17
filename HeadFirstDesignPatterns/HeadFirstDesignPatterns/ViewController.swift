@@ -13,14 +13,14 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
         
-        let nyPizzaFactory = NYSimplePizzaFactory()
-        let nyPizzaStore = PizzaStore(pizzaFactory: nyPizzaFactory)
-        nyPizzaStore.orderPizza(with: .veggie)
+        let nyPizzaStore = NYPizzaStore()
+        let nyPizza = nyPizzaStore.orderPizza(with: .veggie)
+        print("Ethan ordered a \(nyPizza.name)")
         
         
-        let chicagoPizzaFactory = ChicagoSimplePizzaFactory()
-        let chicagoPizzaStore = PizzaStore(pizzaFactory: chicagoPizzaFactory)
-        chicagoPizzaStore.orderPizza(with: .veggie)
+        let chicagoPizzaStore = ChicagoPizzaStore()
+        let chicagoPizza = chicagoPizzaStore.orderPizza(with: .veggie)
+        print("Joel ordered a \(chicagoPizza.name)")
     }
 
 

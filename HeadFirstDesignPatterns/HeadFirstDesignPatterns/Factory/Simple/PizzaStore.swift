@@ -7,22 +7,21 @@
 
 import Foundation
 
-class PizzaStore {
-    enum PizzaType {
-        case cheese
-        case pepperoni
-        case clam
-        case veggie
-    }
-    
-    private let pizzaFactory: SimplePizzaFactory
-    
-    init(pizzaFactory: SimplePizzaFactory) {
-        self.pizzaFactory = pizzaFactory
-    }
-    
+enum PizzaType {
+    case cheese
+    case pepperoni
+    case clam
+    case veggie
+}
+
+protocol PizzaStore {
+    func createPizza(with type: PizzaType) -> Pizza
+    func orderPizza(with type: PizzaType) -> Pizza
+}
+
+extension PizzaStore {
     func orderPizza(with type: PizzaType) -> Pizza {
-        let pizza = pizzaFactory.createPizza(with: type)
+        let pizza = createPizza(with: type)
         pizza.prepare()
         pizza.bake()
         pizza.cut()
