@@ -7,25 +7,17 @@
 
 import Foundation
 
-protocol Pizza {
-    var name: String { get }
-    var dough: String { get }
-    var sauce: String { get }
-    var toppings: [String] { get }
+class Pizza {
+    var name: String = ""
+    var dough: Dough?
+    var sauce: Sauce?
+    var cheese: Cheese?
+    var pepperoni: Pepperoni?
+    var clams: Clam?
+    var veggies: [Veggie]?
     
-    func prepare()
-    func bake()
-    func cut()
-    func box()
-}
-
-extension Pizza {
     func prepare() {
-        print("Preparing " + name)
-        print("Tossing dough")
-        print("Adding sauce")
-        print("Adding toppings:")
-        toppings.forEach { print("  +\($0)") }
+        assertionFailure("subclass needs to implement")
     }
     
     func bake() {
@@ -38,5 +30,83 @@ extension Pizza {
     
     func box() {
         print("Place pizza in offical PizzaStore box")
+    }
+    
+    func setName(_ name: String) {
+        self.name = name
+    }
+    
+    func getName() -> String {
+        return name
+    }
+    
+    func toString() {
+        // TODO
+    }
+}
+
+class CheesePizza: Pizza {
+    let ingredientFactory: PizzaIngredientFactory
+    
+    init(ingredientFactory: PizzaIngredientFactory) {
+        self.ingredientFactory = ingredientFactory
+    }
+    
+    override func prepare() {
+        print("Preparing \(name)")
+        self.dough = ingredientFactory.createDough()
+        self.sauce = ingredientFactory.createSauce()
+        self.cheese = ingredientFactory.createCheese()
+    }
+}
+
+class ClamPizza: Pizza {
+    let ingredientFactory: PizzaIngredientFactory
+    
+    init(ingredientFactory: PizzaIngredientFactory) {
+        self.ingredientFactory = ingredientFactory
+    }
+    
+    override func prepare() {
+        print("Preparing \(name)")
+        self.dough = ingredientFactory.createDough()
+        self.sauce = ingredientFactory.createSauce()
+        self.cheese = ingredientFactory.createCheese()
+        self.clams = ingredientFactory.createClam()
+    }
+}
+
+class PepperoniPizza: Pizza {
+    let ingredientFactory: PizzaIngredientFactory
+    
+    init(ingredientFactory: PizzaIngredientFactory) {
+        self.ingredientFactory = ingredientFactory
+    }
+    
+    override func prepare() {
+        print("Preparing \(name)")
+        self.dough = ingredientFactory.createDough()
+        self.sauce = ingredientFactory.createSauce()
+        self.cheese = ingredientFactory.createCheese()
+        self.clams = ingredientFactory.createClam()
+        self.veggies = ingredientFactory.createVeggies()
+        self.pepperoni = ingredientFactory.createPepperoni()
+    }
+}
+
+class VeggiePizza: Pizza {
+    let ingredientFactory: PizzaIngredientFactory
+    
+    init(ingredientFactory: PizzaIngredientFactory) {
+        self.ingredientFactory = ingredientFactory
+    }
+    
+    override func prepare() {
+        print("Preparing \(name)")
+        self.dough = ingredientFactory.createDough()
+        self.sauce = ingredientFactory.createSauce()
+        self.cheese = ingredientFactory.createCheese()
+        self.clams = ingredientFactory.createClam()
+        self.veggies = ingredientFactory.createVeggies()
     }
 }

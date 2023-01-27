@@ -9,20 +9,20 @@ import Foundation
 
 class NYPizzaStore: PizzaStore {
     func createPizza(with type: PizzaType) -> Pizza {
-        let pizza: Pizza
+        let ingredientFactory = NYPizzaIngredientFactory()
+        
         switch type {
         case .cheese:
-            pizza = NYStyleCheesePizza()
+            return CheesePizza(ingredientFactory: ingredientFactory)
             
         case .pepperoni:
-            pizza = NYStylePepperoniPizza()
+            return PepperoniPizza(ingredientFactory: ingredientFactory)
            
         case .clam:
-            pizza = NYStyleClamPizza()
+            return ClamPizza(ingredientFactory: ingredientFactory)
             
         case .veggie:
-            pizza = NYStyleVeggiePizza()
+            return VeggiePizza(ingredientFactory: ingredientFactory)
         }
-        return pizza
     }
 }
